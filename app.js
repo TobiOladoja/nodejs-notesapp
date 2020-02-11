@@ -3,4 +3,4 @@
 const fs = require('fs');
 
 // First argument is name of file, next argument is content.
-fs.writeFileSync('notes.text', 'This file was created by Tobi Oladoja');
+fs.appendFileSync('notes.text', " and I'm happy I made it");
