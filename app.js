@@ -1,4 +1,6 @@
-const add = require('./utils.js');
+const validator = require('validator');
+const getNotes = require('./notes.js');
 
-const sum = add(4, 5);
-console.log(sum);
+console.log(getNotes());
+
+console.log(validator.isEmail('tobi@example.com'));
